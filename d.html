@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@300;400;500;600;700&display=swap');
+
+        .flex-first {
+            display: flex;
+        }
+
+        .birthday p {
+            margin-top: 0;
+            padding-top: 40px;
+            text-align: center;
+            font-size: 30px;
+            font-family: 'Pacifico', cursive;
+        }
+
+        .snoopy1 {
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+            margin-left: 20px;
+        }
+
+        .snoopy1 img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+
+        .container {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #e2d1c3 0%, #fdfcfb 100%);
+            height: 1300px;
+        }
+
+        .first-img {
+            width: 300px;
+            height: 250px;
+            margin: 50px auto;
+
+        }
+
+        .first-img img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 30px;
+            padding: 2px;
+            border: 5px dashed rgb(255, 255, 255)
+        }
+
+        .foryou {
+            font-family: 'Noto Serif TC', serif;
+        }
+
+        .circle {
+            margin: 0 auto;
+            width: 100px;
+            height: 100px;
+            background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+            border-radius: 50%;
+            position: relative;
+        }
+
+        .circle p {
+            font-weight: 700;
+            color: rgb(138, 138, 138);
+            position: absolute;
+            top: 20px;
+            left: 20px;
+        }
+
+        .word {
+            background-color: #ffffff7c;
+            padding: 10px;
+            margin: 30px auto;
+            width: 70%;
+            word-wrap: break-word;
+            border-radius: 20px;
+            animation-name: ooxx;
+            animation-direction: 5s;
+            left: 12%;
+            position: absolute;
+            top: 680px;
+            transition: .5s;
+
+
+
+        }
+
+
+        .cool {
+            display: none;
+            opacity: 1;
+
+        }
+
+
+
+
+        .move {
+            position: absolute;
+            animation-name: oxxo;
+            animation-duration: 2s;
+        }
+
+        @keyframes oxxo {
+            from {
+                left: 12%;
+                top: 1200px;
+
+            }
+
+            to {
+                left: 12%;
+                top: 680px;
+            }
+        }
+
+        .footer {
+            top: 1150px;
+            width: 50px;
+            height: 70px;
+            position: absolute;
+            animation-name: move;
+            animation-duration: 5s;
+            animation-iteration-count: infinite
+        }
+
+        @keyframes move {
+            from {
+                opacity: 1;
+                left: 90%;
+            }
+
+            to {
+                opacity: .8;
+                left: -100px;
+
+            }
+        }
+
+        .more {
+            background-image: linear-gradient(to top, #dad4ec 0%, #dad4ec 1%, #f3e7e9 100%);
+            height: 1200px;
+        }
+
+        .meomry {
+            margin-top: 0;
+            text-align: center;
+            font-size: 24px;
+            font-family: 'Pacifico', cursive;
+        }
+
+        .img-m {
+            margin: 10px auto;
+            width: 300px;
+            height: 250px;
+        }
+
+        .img-m img {
+            opacity: .8;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 30px;
+        }
+
+        .img-all {
+            display: flex;
+        }
+
+        .img-l {
+            margin: 20px auto;
+            width: 180px;
+            height: 250px;
+        }
+
+        .img-l img {
+            opacity: .8;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        .img-r {
+            margin: 20px 5px;
+            width: 180px;
+            height: 250px;
+        }
+
+        .img-r img {
+            opacity: .8;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 5%;
+        }
+
+        .more p {
+            font-size: 14px;
+            color: rgb(134, 135, 136);
+            text-align: center;
+            font-family: 'Noto Serif TC', serif;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="flex-first">
+            <div class="snoopy1">
+                <img src="./SVG/SVG/資產 1.svg">
+            </div>
+            <div class="birthday">
+                <p>
+                    Happy Birthday！
+                </p>
+            </div>
+        </div>
+
+
+        <div class="first-img">
+            <!-- <img src="./imgs/IMG_3813.JPG"> -->
+            <img src="./imgs/beauty_1592458037798.JPG">
+            <!-- <img src="./imgs/1.png"> -->
+        </div>
+        <div class="foryou">
+            <div class="circle animate__animated animate__bounceIn"
+                style="animation-duration: 5s;animation-iteration-count:infinite">
+                <p>給茜的話</p>
+            </div>
+            <p class="word cool">
+                嗨嗨！生日快樂啦XD<br>
+                不知不覺，畢業一年了啦，沒辦法像以前一樣，
+                無時無刻去你家串門子了，整個很懷念當時的生活，
+                也算還好有你的陪伴啦，雖然靠北，但也是種寄託
+                <br><br>
+                疫情時期真的很悶很累，所以多唱歌啦，我會去多聽的！
+                我一直覺得你是個很有想法的人啦！能力也很不錯
+                所以不要太擔心，因為我知道你是會成功的人
+                相信你啦！不像我我就是個不知道在幹嘛的人哈哈
+                還在努力中啦 祝我們都順利
+                <br><br>
+                希望我們都能越來越好，等之後再跟易儒吃爆美食
+                <br><br>
+                happy birthday
+
+            </p>
+        </div>
+        <div>
+            <img class="footer" src="./SVG/SVG/SVG/資產 5.svg">
+        </div>
+
+    </div>
+    <div class="more">
+        <p class="meomry">
+            Memories
+        </p>
+        <div class="img-m">
+            <img src="./IMG_3321.JPG">
+        </div>
+        <div class="img-m">
+            <img src="./imgs/1.png">
+        </div>
+        <div class="img-m">
+            <img src="./imgs/IMG_3322.JPG">
+        </div>
+        <div class="img-all">
+            <div class="img-l">
+                <img src="./imgs/IMG_3813.JPG">
+            </div>
+            <div class="img-r">
+                <img src="./IMG_1588.JPG">
+            </div>
+        </div>
+        <p> made by jamie chien</p>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"
+        integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script>
+        $('.circle').on('click', function () {
+            $('.word').toggleClass('cool')
+        })
+        $('.circle').on('click', function () {
+            $('.word').addClass('move')
+        })
+    </script>
+</body>
+
+
+</html>
